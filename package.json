@@ -1,0 +1,35 @@
+{
+  "name": "fashion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel trendy_news.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "news",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trapa-Eureka/trendy-news-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Trapa-Eureka/trendy-news-page"
+  },
+  "homepage": "https://github.com/Trapa-Eureka/trendy-news-page#readme",
+  "dependencies": {
+    "postcss-preset-env": "^6.6.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      },
+      "postcss-grid-kiss": true
+    }
+  },
+  "devDependencies": {
+    "postcss-color-mod-function": "^3.0.3",
+    "postcss-grid-kiss": "^2.1.2"
+  }
+}
