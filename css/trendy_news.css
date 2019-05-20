@@ -32,7 +32,7 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
     grid-template-rows: repeat(3, 200px);
     grid-auto-columns: minmax(200px, 1fr);
     grid-auto-rows: 200px;
@@ -59,11 +59,13 @@ body {
 }
 .header .header__bg {
     width: 100%;
-    display: block;
-    position: absolute;
-    height: 49%;
-    margin-left: -620px;
-    margin-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    _position: absolute;
+    height: 170%;
+    _margin-left: -620px;
+    _margin-top: 70px;
 }
 
 
