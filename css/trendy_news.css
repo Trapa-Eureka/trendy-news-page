@@ -305,3 +305,8 @@ body {
     font-size: 50px;
     font-weight: bolder;
 }
+@media screen and (max-width: 1680px) {
+    body {
+        padding: 150px 50px 150px 40px;
+    }
+}
